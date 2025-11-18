@@ -1,4 +1,4 @@
-# LED-BLINK
+
 # 💡 Experiment 01 – Interfacing a Digital Output (LED) with ARM Development Board
 
 ### 🎯 **Aim**
@@ -50,27 +50,43 @@ The **LPC2148**, developed by NXP Semiconductors (Philips), is a 16/32-bit ARM7-
 3. Select the **target microcontroller** or board and click **Next**.
    <img width="1110" height="624" alt="image" src="https://github.com/user-attachments/assets/f93d88b6-cd7f-49db-84de-351f9b116488" />
 
-
-
 4. Name the project.
    <img width="533" height="588" alt="image" src="https://github.com/user-attachments/assets/63de2bab-69d4-4cb9-8db6-1b57adff9878" />
+![Blink 1](https://github.com/user-attachments/assets/f101c399-39a9-4735-bcc2-7b600245d729)
+
+
 
 5. The corresponding `.ioc` file will be generated automatically.
   <img width="1080" height="608" alt="image" src="https://github.com/user-attachments/assets/8900847c-6745-43e2-9ecf-2e66877fdc49" />
+
+![blink 2](https://github.com/user-attachments/assets/66255181-38cc-4a30-9df2-f372d6758191)
+
 
 6. Configure the pins as **GPIO (Input/Output)**, **USART**, etc. as needed.
    <img width="1080" height="608" alt="image" src="https://github.com/user-attachments/assets/acc4f1c4-5e33-431b-8a76-3b102016baa6" />
 <img width="1110" height="624" alt="image" src="https://github.com/user-attachments/assets/b7abcd80-797d-451f-a7c3-23f303822423" />
 
+![blink 2](https://github.com/user-attachments/assets/e331718f-e2bd-41f2-9e85-c8276266d2dc)
+
+
+
 7. Save the configuration (`Ctrl + S`) – the base C program will be generated automatically.
    <img width="1080" height="608" alt="image" src="https://github.com/user-attachments/assets/dbf4b205-5db9-4e9b-8150-94f441c8b116" />
+
+![blink 2](https://github.com/user-attachments/assets/31e6cb81-3dc9-450d-8ef6-71c36d3bea0a)
+
  
 8. Edit the generated main program as required.
    <img width="1110" height="624" alt="image" src="https://github.com/user-attachments/assets/05b39060-35d6-420d-9f4d-8721439bd82f" />
 <img width="1104" height="621" alt="image" src="https://github.com/user-attachments/assets/2ec55709-a45f-4e6e-8738-6aa94138eab1" />
 
+![blink 8](https://github.com/user-attachments/assets/89919f16-98ec-47a5-b0c7-d647c654a39b)
+
+
 9. Click **Project → Build All**.
     <img width="1080" height="608" alt="image" src="https://github.com/user-attachments/assets/264cd0a8-3e96-4668-822e-838ecfafc527" />
+
+![blink 10](https://github.com/user-attachments/assets/b50742e1-86a1-4796-a2ac-cd18f63b5e60)
 
 10. Link the **HEX file** using the post-build process.
     <img width="1053" height="465" alt="image" src="https://github.com/user-attachments/assets/478187a0-0ee6-4c50-9cac-c3b5ee18521b" />
@@ -109,8 +125,11 @@ int main(void)
 ---
 ### OUTPUT
 CASE 1: LED ON 
+<img width="1056" height="792" alt="image" src="https://github.com/user-attachments/assets/cafad25b-eae9-4970-afd3-8cb874a1ae6a" />
 
 CASE 2: LED OFF
+<img width="1056" height="792" alt="image" src="https://github.com/user-attachments/assets/4c803807-51c1-427f-9ea2-8f9982e3adc1" />
+
 
 ---
 ### RESULT
